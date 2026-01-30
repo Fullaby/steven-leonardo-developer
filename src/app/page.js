@@ -1,66 +1,30 @@
-'use client'
+"use client";
 
 import Image from "next/image";
+import Header from "./components/header";
 import Link from "next/link";
-import { useEffect,useState } from "react";
 export default function Home() {
-  const [isScrolled, setIsScrolled] = useState(false);
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
   return (
     <div>
-      <div className={`header_cmp ${isScrolled? "scroll" : ""}`}>
-        <div className="header_cmp--page-list">
-          <ul>
-            <li>
-              <Link href="">Home</Link>
-            </li>
-            <li>
-              <Link href="">Home</Link>
-            </li>
-            <li>
-              <Link href="">Home</Link>
-            </li>
-            <li>
-              <Link href="">Home</Link>
-            </li>
-          </ul>
-        </div>
-        <div className="header_cmp--logo-list">
-          <ul>
-            <li>
-              <Link href="">Home</Link>
-            </li>
-            <li>
-              <Link href="">Home</Link>
-            </li>
-            <li>
-              <Link href="">Home</Link>
-            </li>
-            <li>
-              <Link href="">Home</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <Header/>
       <div className="masthead_cmp">
         <div className="masthead_cmp--text-content">
-          <h1>TEST</h1>
-          <h1>TEST</h1>
+          <h1>Steven Leonardo</h1>
+          <p>TEST</p>
+          <div>
+            <div>
+              <Link href="">test</Link>
+            </div>
+          </div>
         </div>
 
-        <div>
-
+        <div className="masthead_cmp--image-content">
+          <div className="masthead_cmp--image-content-profile">
+            <Image width="600" height="500" src="/profile_image.jpg" alt="test"/>
+          </div>
         </div>
       </div>
-        <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
     </div>
   );
 }
