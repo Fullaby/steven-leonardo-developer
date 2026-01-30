@@ -1,36 +1,247 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+👋 Hi, I'm Steven Leonardo
 
-## Getting Started
+🚀 Full-Stack Software Engineer | Enterprise & Cloud Applications
+📍 Sydney, Australia (Relocating Feb 2026)
+🏗 Specializing in Enterprise Platforms, Scalable APIs, and Modern Web Architecture
 
-First, run the development server:
+💡 Professional Summary
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I am a Full-Stack Software Engineer and Technical Consultant with 3+ years of experience delivering production-grade enterprise applications across hospitality, insurance, financial services, and FMCG industries.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I build scalable backend systems, high-performance frontend applications, and enterprise CMS platforms using JavaScript ecosystems, Java, and Adobe Experience Manager (AEM).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+My strength is operating at the intersection of:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Enterprise platform engineering
 
-## Learn More
+Modern full-stack product development
 
-To learn more about Next.js, take a look at the following resources:
+Cloud infrastructure and distributed systems
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Secure, performance-optimized application architecture
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+I focus on writing clean, maintainable code while delivering measurable business value.
 
-## Deploy on Vercel
+🌏 Enterprise & Global Project Exposure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Delivered or contributed to platforms related to:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pan Pacific Hotel Group — Hospitality Digital Experience
+
+Tokio Marine Asia — Insurance Digital Platform
+
+Allianz Thailand — Enterprise Insurance Systems
+
+BCT — Enterprise Platform Development
+
+CIC — Financial / Enterprise Solutions
+
+Danone — Global FMCG Digital Platforms
+
+Experience includes enterprise CMS engineering, multi-region deployments, and system integrations.
+
+🇦🇺 Australia Work Readiness
+
+🎓 Student Visa (Subclass 500) — Unlimited Work Hours (Master by Research)
+📍 Sydney, NSW
+🗣 English Proficiency: IELTS C1 (7.0)
+
+✔ No standard student work-hour restriction
+✔ Comfortable working in international teams
+✔ Enterprise consulting project experience
+
+🧠 Engineering Philosophy
+
+I approach engineering with a systems-thinking mindset:
+
+Design for scalability from day one
+
+Security and data integrity are non-negotiable
+
+Performance is a feature, not an afterthought
+
+Code should be understandable by teams, not individuals
+
+🛠 Core Tech Stack
+Languages
+
+JavaScript (Primary)
+
+Java
+
+Frontend Engineering
+
+React.js
+
+Next.js
+
+Vue.js
+
+React Native
+
+Redux / State Management
+
+Backend & Architecture
+
+Node.js
+
+Express.js
+
+GraphQL
+
+REST API Design
+
+Microservices Architecture
+
+Enterprise Platforms
+
+Adobe Experience Manager (AEM)
+
+Sling Models
+
+Sling Servlets
+
+OSGi Services
+
+Core Components
+
+Forms & Integrations
+
+Databases & Data Layer
+
+PostgreSQL
+
+MySQL
+
+MongoDB
+
+Sequelize / Mongoose
+
+Cloud & Infrastructure
+
+AWS (EC2, S3)
+
+Docker
+
+CI/CD Pipelines
+
+GitHub Actions
+
+Performance & Scaling
+
+Redis Caching
+
+Background Jobs / Cron
+
+Production Monitoring & Support
+
+Security
+
+JWT Authentication
+
+OAuth
+
+bcrypt
+
+RBAC
+
+🧱 Professional Experience Highlights
+Enterprise AEM Platform Engineering
+
+Built Sling Servlets, Models, and REST APIs inside AEM ecosystems
+
+Developed reusable enterprise frontend components
+
+Supported multi-environment deployments
+
+Maintained production AWS infrastructure
+
+Full Stack Product Engineering
+
+Designed microservices-based backend architectures
+
+Built mobile + web apps using modern JS frameworks
+
+Implemented third-party integrations (payments, messaging, analytics)
+
+Production Operations
+
+Performance optimisation in live environments
+
+Debugging complex distributed systems
+
+Supporting release and deployment pipelines
+
+📂 Selected Engineering Projects
+🎬 Movie Discovery Mobile Application
+
+Stack: Microservices + GraphQL + React Native
+
+Built scalable GraphQL backend
+
+Designed API performance optimization
+
+Mobile-first architecture
+
+🎮 E-Sports Competition Platform
+
+Stack: Full-stack event + payment + realtime architecture
+
+Payment gateway integration
+
+Redis performance caching
+
+Google ecosystem integrations
+
+⚖️ Legal Reporting Platform
+
+Stack: Security-focused full-stack platform
+
+JWT authentication
+
+Payment + verification workflows
+
+Production-grade backend architecture
+
+🏆 Certifications
+
+🏅 Adobe Certified Professional — AEM Developer (2024)
+🏅 IELTS C1 — Professional English Proficiency
+🏅 Hacktiv8 Full Stack Engineering Graduate
+
+🎓 Education
+
+Bachelor of Law (Criminal Law)
+Strong analytical thinking, structured problem solving, and regulatory awareness.
+
+Full Stack Engineering — Hacktiv8
+Production-ready full stack engineering training.
+
+🚀 Career Direction
+
+I am focused on growing into roles involving:
+
+Enterprise platform architecture
+
+Cloud-native system design
+
+High-scale backend engineering
+
+Technical consulting and solution architecture
+
+Long term: Build systems that impact millions of users globally.
+
+📫 Connect With Me
+
+📧 Email: stevenleonardo57@gmail.com
+
+💼 LinkedIn: linkedin.com/in/steven-leonardo-lim
+🐙 GitHub: github.com/Fullaby
+
+⚡ Beyond Engineering
+
+I am deeply interested in emerging technology, system architecture, and building products that create meaningful real-world impact.
+
+I am also exploring creative technology fields such as electronic music production.
+
+⭐ If you like clean architecture, scalable systems, and practical engineering — we’ll probably work well together.
