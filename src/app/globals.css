@@ -1,5 +1,6 @@
 @import url('./scss/style.scss');
 
+
 body {
   background-color: black;
   margin: 0;
@@ -7,4 +8,5 @@ body {
 
 h1 {
   margin: 0px;
+  font-size: 32pt;
 }

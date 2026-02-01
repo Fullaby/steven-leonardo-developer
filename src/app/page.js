@@ -10,10 +10,10 @@ export default function Home() {
       <div className="masthead_cmp">
         <div className="masthead_cmp--text-content">
           <h1>Steven Leonardo</h1>
-          <p>TEST</p>
-          <div>
-            <div>
-              <Link href="">test</Link>
+          <p>Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <div className="masthead_cmp--button-link-wrapper">
+            <div className="masthead_cmp--button-link">
+              <Link href="">Let's get started &gt;</Link>
             </div>
           </div>
         </div>
@@ -24,6 +24,19 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
+      <div className="masthead_cmp">test</div>
       <div className="masthead_cmp">test</div>
     </div>
   );
