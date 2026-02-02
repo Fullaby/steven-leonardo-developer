@@ -37,7 +37,7 @@ export default function Header() {
               <Image
                 width="600"
                 height="500"
-                src="/linkedIn.png"
+                src="/linkedin.png"
                 alt="test"
               />
             </Link>
