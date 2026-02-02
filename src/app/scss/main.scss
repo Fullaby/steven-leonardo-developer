@@ -8,8 +8,16 @@
 @use "getInTouch";
 @use "backToTop";
 
+html {
+  scroll-behavior: smooth;
+}
 body {
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
   [class$="_cmp"] {
     padding: 20px 130px 20px 130px;
   }
@@ -20,14 +28,9 @@ body {
   color: $white-color;
 }
 
+p,
+h3,
+h2,
 h1 {
-  margin: 0px;
-  font-size: 32pt;
-}
-
-h2 {
-  margin: 0px;
-}
-p {
   margin: 0px;
 }

@@ -3,13 +3,16 @@
   bottom: 0px;
   right: 0px;
   padding: 20px 130px 20px 130px;
-  transition: opacity 0.5s ease, visibility 0.5s ease;
+  transition:
+    opacity 0.5s ease,
+    visibility 0.5s ease;
   &.hidden {
     opacity: 0;
     visibility: hidden;
   }
   &-icon {
-    filter: invert(1);
     cursor: pointer;
+    filter: invert(30%) sepia(90%) saturate(6000%) hue-rotate(210deg)
+      brightness(95%);
   }
 }

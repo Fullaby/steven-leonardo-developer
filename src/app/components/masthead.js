@@ -6,8 +6,12 @@ export default function Masthead() {
       <div className="masthead_cmp--text-content">
         <h1>Steven Leonardo</h1>
         <p>
-          Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Software engineer with 3+ years’ experience building and supporting
+          production web applications used by real users. Strong in JavaScript,
+          with hands-on experience integrating backend APIs and working in
+          fast-moving, product-led teams. Known for owning features end-to-end,
+          learning quickly, and collaborating closely with engineers, product,
+          and design to deliver reliable, high-impact software.
         </p>
         <div className="masthead_cmp--button-link-wrapper">
           <Link href="">
@@ -20,7 +24,12 @@ export default function Masthead() {
 
       <div className="masthead_cmp--image-content">
         <div className="masthead_cmp--image-content-profile">
-          <Image width="600" height="500" src="/profile_image.jpg" alt="project" />
+          <Image
+            width="600"
+            height="500"
+            src="/profile_image.jpg"
+            alt="project"
+          />
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function DevelopProject() {
   return (
     <div className="developed-project_cmp" id="project-developed">
@@ -6,46 +7,26 @@ export default function DevelopProject() {
         <p>Project Developed</p>
       </div>
       <div className="developed-project_cmp--project-card-wrapper">
-        <div className="developed-project_cmp--project-card">
+        <Link href="#pphg" className="developed-project_cmp--project-card">
           <span>
-            <Image
-              width="600"
-              height="500"
-              src="/profile_image.jpg"
-              alt="project"
-            />
+            <Image width="600" height="500" src="/pphg.jpg" alt="project" />
           </span>
-        </div>
-        <div className="developed-project_cmp--project-card">
+        </Link>
+        <Link href="#tma" className="developed-project_cmp--project-card">
           <span>
-            <Image
-              width="600"
-              height="500"
-              src="/profile_image.jpg"
-              alt="project"
-            />
+            <Image width="600" height="500" src="/TMA.jpg" alt="project" />
           </span>
-        </div>
-        <div className="developed-project_cmp--project-card">
+        </Link>
+        <Link href="#allianz" className="developed-project_cmp--project-card">
           <span>
-            <Image
-              width="600"
-              height="500"
-              src="/profile_image.jpg"
-              alt="project"
-            />
+            <Image width="600" height="500" src="/allianz.jpg" alt="project" />
           </span>
-        </div>
-        <div className="developed-project_cmp--project-card">
+        </Link>
+        <Link href="#bct" className="developed-project_cmp--project-card">
           <span>
-            <Image
-              width="600"
-              height="500"
-              src="/profile_image.jpg"
-              alt="project"
-            />
+            <Image width="600" height="500" src="/bct.jpg" alt="project" />
           </span>
-        </div>
+        </Link>
       </div>
     </div>
   );

@@ -1,4 +1,15 @@
 @use "variables" as *;
 .experience_cmp {
   height: calc(100vh - 10vh);
+  background-color: $lighter-blue;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 80px !important;
+  h1 {
+    color: $yellow;
+  }
+  h3 {
+    color: $yellow;
+  }
 }
