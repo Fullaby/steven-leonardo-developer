@@ -13,7 +13,7 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div className={`header_cmp ${isScrolled ? "scroll" : ""}`}>
+    <div className={`header_cmp ${isScrolled ? "scroll" : ""} component`}>
       <div className="header_cmp--page-list">
         <ul>
           <li>

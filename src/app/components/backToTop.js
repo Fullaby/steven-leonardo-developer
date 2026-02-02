@@ -21,7 +21,7 @@ export default function BackToTop() {
   return (
     <div
       onClick={backToTop}
-      className={`backToTop_cmp${isScrolled ? "" : " hidden"}`}
+      className={`backToTop_cmp${isScrolled ? "" : " hidden"} component`}
     >
       <Image
         className="backToTop_cmp-icon"

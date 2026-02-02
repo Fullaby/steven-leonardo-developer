@@ -2,9 +2,15 @@
 .masthead_cmp {
   background-color: $black;
   display: flex;
-  justify-content: space-between;
   gap: 150px;
-  height: calc(100vh - 40vh);
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  .masthead_cmp-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
   h1 {
     color: $yellow;
   }

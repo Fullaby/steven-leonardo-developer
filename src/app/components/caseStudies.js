@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function CaseStudies() {
   return (
-    <div className="case-studies_cmp" id="case-studies">
+    <div className="case-studies_cmp component" id="case-studies">
       <div className="case-studies_cmp--text-title">
         <h1>CASE STUDIES</h1>
         <p>

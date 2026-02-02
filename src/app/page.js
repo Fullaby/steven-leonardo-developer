@@ -15,7 +15,6 @@ export default function Home() {
     <div>
       <Header />
       <Masthead />
-      <DevelopProject />
       <CaseStudies />
       <Experience />
       <GetInTouch />
