@@ -1,3 +1,4 @@
+@use "fonts";
 @use "variables" as *;
 @use "masthead";
 @use "header";
@@ -7,6 +8,7 @@
 @use "getInTouch";
 
 body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   [class$="_cmp"] {
     padding: 20px 130px 20px 130px;
   }
