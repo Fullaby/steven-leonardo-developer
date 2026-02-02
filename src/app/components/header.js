@@ -33,41 +33,31 @@ export default function Header() {
       <div className="header_cmp--logo-list">
         <ul>
           <li>
-            <Link href="">
+            <Link href="https://www.linkedin.com/in/steven-leonardo-lim" target="_blank">
               <Image
                 width="600"
                 height="500"
-                src="/profile_image.jpg"
+                src="/linkedin.png"
                 alt="test"
               />
             </Link>
           </li>
           <li>
-            <Link href="">
+            <Link href="https://github.com/Fullaby" target="_blank">
               <Image
                 width="600"
                 height="500"
-                src="/profile_image.jpg"
+                src="/github.png"
                 alt="test"
               />
             </Link>
           </li>
           <li>
-            <Link href="">
+            <Link href="mailto:stevenleonardo57@gmail.com">
               <Image
                 width="600"
                 height="500"
-                src="/profile_image.jpg"
-                alt="test"
-              />
-            </Link>
-          </li>
-          <li>
-            <Link href="">
-              <Image
-                width="600"
-                height="500"
-                src="/profile_image.jpg"
+                src="/emaillogo.png"
                 alt="test"
               />
             </Link>
