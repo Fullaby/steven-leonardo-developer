@@ -17,16 +17,16 @@ export default function Header() {
       <div className="header_cmp--page-list">
         <ul>
           <li>
-            <Link href="">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="">Case Studies</Link>
+            <Link href="#case-studies">Case Studies</Link>
           </li>
           <li>
-            <Link href="">Experience</Link>
+            <Link href="#experience">Experience</Link>
           </li>
           <li>
-            <Link href="">Get In Touch</Link>
+            <Link href="#get-in-touch">Get In Touch</Link>
           </li>
         </ul>
       </div>
@@ -37,7 +37,7 @@ export default function Header() {
               <Image
                 width="600"
                 height="500"
-                src="/linkedin.png"
+                src="/linkedIn.png"
                 alt="test"
               />
             </Link>
