@@ -17,7 +17,7 @@ export default function Masthead() {
             software.
           </p>
           <div className="masthead_cmp--button-link-wrapper">
-            <Link href="">
+            <Link href="#case-studies">
               <div className="masthead_cmp--button-link">
                 Let's get started &gt;
               </div>

@@ -1,8 +1,48 @@
-import Form from "next/form";
+import { useState } from "react";
+
 export default function GetInTouch() {
-  function handleSubmission() {
-    console.log("test");
+  const [dataInput, setDataInput] = useState({
+    email: "",
+    mobile: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setDataInput((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  async function sendEmail() {
+    const response = await fetch("/api/sendEmail", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        to: "stevenleonardo57@gmail.com",
+        subject: `New message from ${dataInput.email}`,
+        text: `Email: ${dataInput.email}\nMobile: ${dataInput.mobile}\nMessage: ${dataInput.message}`,
+      }),
+    });
+
+    let data;
+    try {
+      data = await response.json(); // will now succeed
+    } catch (err) {
+      console.error("Failed to parse JSON:", err);
+      data = { error: "Invalid JSON response" };
+    }
   }
+
+  async function handleSubmission(e) {
+    e.preventDefault();
+    await sendEmail();
+    // Optionally, reset the form after submission
+    setDataInput({ email: "", mobile: "", message: "" });
+    alert("Message sent!");
+  }
+
   return (
     <div className="get-in-touch_cmp component" id="get-in-touch">
       <div className="get-in-touch_cmp-title">
@@ -14,23 +54,42 @@ export default function GetInTouch() {
         </p>
       </div>
       <div className="get-in-touch_cmp-form">
-        <Form onSubmit={handleSubmission}>
+        <form onSubmit={handleSubmission}>
           <div className="get-in-touch_cmp-form-email">
             <p>Email</p>
-            <input type="email" placeholder="Please enter your email" />
+            <input
+              name="email"
+              type="email"
+              value={dataInput.email}
+              onChange={handleChange}
+              placeholder="Please enter your email"
+              required
+            />
           </div>
           <div className="get-in-touch_cmp-form-mobile">
             <p>Mobile</p>
-            <input type="tel" placeholder="Enter mobile" />
+            <input
+              name="mobile"
+              type="tel"
+              value={dataInput.mobile}
+              onChange={handleChange}
+              placeholder="Enter mobile"
+            />
           </div>
           <div className="get-in-touch_cmp-form-message">
             <p>Message</p>
-            <textarea name="message" placeholder="Enter your message" />
+            <textarea
+              name="message"
+              value={dataInput.message}
+              onChange={handleChange}
+              placeholder="Enter your message"
+              required
+            />
           </div>
           <button className="get-in-touch_cmp-form-submit-button" type="submit">
             Submit &gt;
           </button>
-        </Form>
+        </form>
       </div>
     </div>
   );
