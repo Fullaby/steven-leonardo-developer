@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 export default function Masthead() {
   return (
-    <div className="masthead_cmp">
+    <div className="masthead_cmp" id="masthead">
       <div className="masthead_cmp--text-content">
         <h1>Steven Leonardo</h1>
         <p>
@@ -20,7 +20,7 @@ export default function Masthead() {
 
       <div className="masthead_cmp--image-content">
         <div className="masthead_cmp--image-content-profile">
-          <Image width="600" height="500" src="/profile_image.jpg" alt="test" />
+          <Image width="600" height="500" src="/profile_image.jpg" alt="project" />
         </div>
       </div>
     </div>

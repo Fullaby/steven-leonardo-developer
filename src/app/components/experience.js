@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <div className="experience_cmp">
+    <div className="experience_cmp" id="experience">
       <div className="experience_cmp-title">
         <h2>Experience</h2>
         <p>

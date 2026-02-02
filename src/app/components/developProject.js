@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function DevelopProject() {
   return (
-    <div className="developed-project_cmp">
+    <div className="developed-project_cmp" id="project-developed">
       <div className="developed-project_cmp--title">
         <p>Project Developed</p>
       </div>
@@ -12,7 +12,7 @@ export default function DevelopProject() {
               width="600"
               height="500"
               src="/profile_image.jpg"
-              alt="test"
+              alt="project"
             />
           </span>
         </div>
@@ -22,7 +22,7 @@ export default function DevelopProject() {
               width="600"
               height="500"
               src="/profile_image.jpg"
-              alt="test"
+              alt="project"
             />
           </span>
         </div>
@@ -32,7 +32,7 @@ export default function DevelopProject() {
               width="600"
               height="500"
               src="/profile_image.jpg"
-              alt="test"
+              alt="project"
             />
           </span>
         </div>
@@ -42,7 +42,7 @@ export default function DevelopProject() {
               width="600"
               height="500"
               src="/profile_image.jpg"
-              alt="test"
+              alt="project"
             />
           </span>
         </div>

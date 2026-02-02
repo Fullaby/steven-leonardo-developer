@@ -1,6 +1,6 @@
 export default function CaseStudies() {
   return (
-    <div className="case-studies_cmp">
+    <div className="case-studies_cmp" id="case-studies">
       <div className="case-studies_cmp--text-title">
         <h2>CASE STUDIES</h2>
         <p>

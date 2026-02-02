@@ -4,7 +4,7 @@ export default function GetInTouch() {
     console.log("test");
   }
   return (
-    <div className="get-in-touch_cmp">
+    <div className="get-in-touch_cmp" id="get-in-touch">
       <div className="get-in-touch_cmp-title">
         <h2>Get In Touch</h2>
         <p>

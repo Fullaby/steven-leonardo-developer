@@ -7,6 +7,7 @@ import DevelopProject from "./components/developProject";
 import CaseStudies from "./components/caseStudies";
 import Experience from "./components/experience";
 import GetInTouch from "./components/getInTouch";
+import BackToTop from "./components/backToTop";
 import Link from "next/link";
 import Form from "next/form";
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <CaseStudies />
       <Experience />
       <GetInTouch />
+      <BackToTop />
     </div>
   );
 }
