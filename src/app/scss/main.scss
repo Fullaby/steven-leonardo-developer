@@ -1,0 +1,30 @@
+@use "variables" as *;
+@use "masthead";
+@use "header";
+@use "developProject";
+@use "caseStudies";
+@use "experience";
+@use "getInTouch";
+
+body {
+  [class$="_cmp"] {
+    padding: 20px 130px 20px 130px;
+  }
+}
+body {
+  background-color: black;
+  margin: 0;
+  color: $white-color;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 32pt;
+}
+
+h2 {
+  margin: 0px;
+}
+p {
+  margin: 0px;
+}

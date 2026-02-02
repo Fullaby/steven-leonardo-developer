@@ -1,0 +1,67 @@
+@use "variables" as *;
+
+.get-in-touch_cmp {
+  height: calc(100vh - 25vh);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  &-title {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    p {
+      width: 60%;
+    }
+  }
+  .get-in-touch_cmp-form {
+    display: flex;
+    justify-content: center;
+    form {
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+    &-email,
+    &-mobile,
+    &-message {
+      input,
+      textarea {
+        outline: none;
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    &-email {
+      input {
+        height: 25px;
+      }
+    }
+    &-mobile {
+      input {
+        height: 20px;
+      }
+    }
+    &-message {
+      textarea {
+        height: 100px;
+      }
+    }
+    &-submit-button {
+      height: 50px;
+      background-color: $lighter-blue;
+      color: $white-color;
+      border-radius: 10px;
+      border: 1px solid $lighter-blue;
+      margin-top: 10px;
+      transition: all 0.5s;
+      cursor: pointer;
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
