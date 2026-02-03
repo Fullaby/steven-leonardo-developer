@@ -36,7 +36,7 @@ export default function Header() {
           height={1000}
           onClick={openMenu}
         />
-        <ul>
+        <ul className={`${menu ? "show" : "hidden"}`}>
           <li>
             <Link href="/">Home</Link>
           </li>
