@@ -8,6 +8,8 @@
   padding-right: 100px;
   background-color: #1a3263;
   transition: all 0.5s;
+  position: sticky;
+  
   &.scroll {
     background-color: transparent;
     padding-bottom: 0px;

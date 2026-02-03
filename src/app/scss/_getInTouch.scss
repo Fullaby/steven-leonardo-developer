@@ -19,6 +19,9 @@
     p {
       width: 60%;
       color: $lighter-blue;
+      @media (max-width: $mobile) {
+        width: 100%;
+      }
     }
   }
   .get-in-touch_cmp-form {
@@ -29,6 +32,9 @@
       display: flex;
       flex-direction: column;
       width: 50%;
+      @media (max-width: $mobile) {
+        width: 100%;
+      }
     }
     &-email,
     &-mobile,

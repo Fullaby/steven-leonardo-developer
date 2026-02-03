@@ -3,6 +3,9 @@
   background-color: $black;
   display: flex;
   gap: 150px;
+  @media (max-width: $mobile) {
+    gap: 50px;
+  }
   height: 100vh;
   justify-content: center;
   display: flex;
@@ -10,6 +13,11 @@
   .masthead_cmp-wrapper {
     display: flex;
     justify-content: space-between;
+    @media (max-width: $mobile) {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
   }
   h3 {
     color: $lighter-blue;
@@ -28,6 +36,9 @@
     flex-direction: column;
     width: 50%;
     gap: 20px;
+    @media (max-width: $mobile) {
+      width: 100%;
+    }
   }
   &--image-content {
     align-items: center;
@@ -40,9 +51,16 @@
     }
   }
   &--button-link-wrapper {
+    @media (max-width: $mobile) {
+      justify-content: center;
+      display: flex;
+    }
     a {
       .masthead_cmp--button-link {
         background-color: $lighter-blue;
+        @media (max-width: $mobile) {
+          width: auto;
+        }
         width: 200px;
         border-radius: 10px;
         padding: 20px;

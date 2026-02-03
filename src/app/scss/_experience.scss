@@ -5,6 +5,9 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  @media (max-width: $mobile) {
+    height: 100vh;
+  }
   &.component {
     padding-top: 80px;
   }

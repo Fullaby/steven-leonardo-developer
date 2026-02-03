@@ -26,10 +26,18 @@
     &:nth-child(even) {
       .case-studies_cmp-project-card-content {
         flex-direction: row-reverse;
+        @media (max-width: $mobile) {
+          flex-direction: column;
+        }
       }
     }
     &:nth-child(odd) {
-      flex-direction: row;
+      .case-studies_cmp-project-card-content {
+        flex-direction: row;
+        @media (max-width: $mobile) {
+          flex-direction: column;
+        }
+      }
     }
     &-content {
       display: flex;
