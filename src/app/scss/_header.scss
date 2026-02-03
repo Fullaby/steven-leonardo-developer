@@ -1,29 +1,54 @@
 @use "variables" as *;
 .header_cmp {
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      a {
+        color: #e8e2db;
+        text-decoration: none;
+      }
+    }
+  }
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
   background-color: #1a3263;
   transition: all 0.5s;
   position: sticky;
-  
-  &.scroll {
-    background-color: transparent;
-    padding-bottom: 0px;
-    padding-top: 10px;
-    position: sticky;
-    top: 0px;
-    padding-left: 90px;
-    padding-right: 90px;
-    // transition: all 0.5s;
-    .header_cmp--page-list {
-      padding-left: 40px;
+  &.component {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    @media (max-width: $mobile) {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      justify-content: end;
     }
-    .header_cmp--logo-list {
-      padding-right: 40px;
+  }
+
+  &.scroll {
+    @media (min-width: $desktop) {
+      background-color: transparent;
+      padding-bottom: 0px;
+      padding-top: 10px;
+      position: sticky;
+      top: 0px;
+      padding-left: 90px;
+      padding-right: 90px;
+      // transition: all 0.5s;
+      .header_cmp--page-list {
+        padding-left: 40px;
+      }
+      .header_cmp--logo-list {
+        padding-right: 40px;
+      }
+    }
+    @media (max-width: $mobile) {
+      position: sticky;
+      top: 0;
     }
   }
   &--logo-list {
@@ -56,24 +81,16 @@
     border-bottom-left-radius: 20px;
     transition: all 1s;
     padding-left: 20px;
-
     ul {
       gap: 100px;
       padding-left: 0px;
+      @media (max-width: $mobile) {
+        display: none;
+      }
     }
     &.scroll {
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
-    }
-  }
-  ul {
-    display: flex;
-    li {
-      list-style: none;
-      a {
-        color: #e8e2db;
-        text-decoration: none;
-      }
     }
   }
 }
