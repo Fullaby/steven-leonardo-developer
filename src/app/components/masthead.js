@@ -32,7 +32,7 @@ export default function Masthead() {
             <Image
               width="600"
               height="500"
-              src="/profile_image.jpg"
+              src="/profile-image.jpg"
               alt="project"
             />
           </div>
