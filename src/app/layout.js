@@ -1,28 +1,50 @@
 import "./scss/main.scss";
 
 export const metadata = {
-  icons: {
-    icon: "/ico.png",
+  metadataBase: new URL("https://steven-leonardo.vercel.app"),
+
+  title: {
+    default: "Steven Leonardo | Fullstack Developer",
+    template: "%s | Steven Leonardo",
   },
-  title: "Steven Leonardo | Fullstack Developer",
+
   description:
-    "Steven Leonardo Full-stack JavaScript developer with 3+ years of experience delivering scalable, user-focused web solutions. Strong collaborator with a growth mindset and passion for modern engineering practices.",
+    "Full-stack developer passionate about solving real user and business problems through scalable web solutions, modern engineering practices, and collaborative product development.",
+
+  applicationName: "Steven Leonardo Portfolio",
 
   keywords: [
     "Steven Leonardo",
-    "Steven Leonardo developer",
-    "Steven Leonardo portfolio",
-    "Steven Leonardo web developer",
-    "creative web developer",
-    "Next.js experiment",
-    "interactive web experience",
-    "framer motion animation",
-    "modern JavaScript projects",
+    "Fullstack Developer Australia",
+    "JavaScript Developer Sydney",
+    "Next.js Developer",
+    "React Developer",
+    "Node.js Developer",
+    "Frontend Engineer",
+    "Modern Web Development",
+    "Software Engineer Portfolio",
   ],
 
   authors: [{ name: "Steven Leonardo" }],
   creator: "Steven Leonardo",
   publisher: "Steven Leonardo",
+
+  referrer: "origin-when-cross-origin",
+
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+
+  icons: {
+    icon: [
+      { url: "/ico.png", sizes: "32x32", type: "image/png" },
+      { url: "/ico.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: [{ url: "/ico.png", sizes: "180x180", type: "image/png" }],
+    shortcut: ["/ico.png"],
+  },
 
   robots: {
     index: true,
@@ -39,35 +61,36 @@ export const metadata = {
   openGraph: {
     title: "Steven Leonardo — Fullstack Developer",
     description:
-      "A unique interactive web experience by Steven Leonardo. Featuring animated transitions, sound design, and experimental UI built with Next.js.",
-    url: "https://steven-leonardo.vercel.app",
+      "Portfolio of Steven Leonardo featuring scalable web applications, interactive UI, and modern full-stack engineering using Next.js and JavaScript.",
+    url: "/",
     siteName: "Steven Leonardo",
+    locale: "en_AU",
+    type: "website",
     images: [
       {
-        url: "https://steven-leonardo.vercel.app/ico.png",
+        url: "/ico.png",
         width: 1200,
         height: 630,
-        alt: "Steven Leonardo Fullstack Developer",
+        alt: "Steven Leonardo Fullstack Developer Portfolio",
       },
     ],
-    locale: "en_US",
-    type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
     title: "Steven Leonardo — Fullstack Developer",
     description:
-      "Creative interactive web experiment by Steven Leonardo using Next.js and animation.",
-    images: ["https://steven-leonardo.vercel.app/ico.png"],
+      "Full-stack JavaScript developer building scalable and interactive web experiences.",
+    images: ["/ico.png"],
   },
 
   alternates: {
-    canonical: "https://steven-leonardo.vercel.app",
+    canonical: "/",
   },
 
-  category: "Technology",
+  category: "technology",
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
