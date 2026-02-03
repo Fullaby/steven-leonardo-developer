@@ -28,6 +28,7 @@ export default function Header() {
           width={1000}
           height={1000}
           onClick={closeMenu}
+          alt="close menu"
         />
         <Image
           className={`open-menu ${menu ? "hide" : "show"}`}
@@ -35,6 +36,7 @@ export default function Header() {
           width={1000}
           height={1000}
           onClick={openMenu}
+          alt="open menu"
         />
         <ul className={`${menu ? "show" : "hidden"}`}>
           <li>
