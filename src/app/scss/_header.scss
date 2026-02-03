@@ -81,6 +81,27 @@
     border-bottom-left-radius: 20px;
     transition: all 1s;
     padding-left: 20px;
+    .open-menu,
+    .close-menu {
+      @media (max-width: $mobile) {
+        width: 40px;
+        height: 40px;
+        transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s ease ;
+        position: absolute;
+        &.hide {
+          visibility: hidden;
+          opacity: 0;
+        }
+        &.show {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+      @media (min-width: $desktop) {
+        display: none;
+      }
+      filter: invert(1);
+    }
     ul {
       gap: 100px;
       padding-left: 0px;
