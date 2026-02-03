@@ -7,6 +7,9 @@
   flex-direction: column;
   gap: 30px;
   background: $yellow;
+  @media (max-width: $mobile) {
+    height: auto;
+  }
   &-title {
     text-align: center;
     align-items: center;
