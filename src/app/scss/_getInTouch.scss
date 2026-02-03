@@ -6,14 +6,19 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  background: $yellow;
   &-title {
     text-align: center;
     align-items: center;
     flex-direction: column;
     display: flex;
     gap: 15px;
+    h2 {
+      color: $deep-blue;
+    }
     p {
       width: 60%;
+      color: $lighter-blue;
     }
   }
   .get-in-touch_cmp-form {
@@ -35,6 +40,9 @@
       display: flex;
       flex-direction: column;
       gap: 3px;
+      p {
+        color: $deep-blue;
+      }
     }
     &-email {
       input {

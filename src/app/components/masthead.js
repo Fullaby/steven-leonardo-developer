@@ -6,7 +6,10 @@ export default function Masthead() {
     <div className="masthead_cmp component" id="masthead">
       <div className="masthead_cmp-wrapper">
         <div className="masthead_cmp--text-content">
-          <h1>Steven Leonardo</h1>
+          <div>
+            <h1>Steven Leonardo</h1>
+            <h3>Fullstack Developer</h3>
+          </div>
           <p>
             Software engineer with 3+ years’ experience building and supporting
             production web applications used by real users. Strong in
