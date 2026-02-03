@@ -8,7 +8,7 @@
   gap: 30px;
   background: $yellow;
   @media (max-width: $mobile) {
-    height: auto;
+    height: 100vh;
   }
   &-title {
     text-align: center;
