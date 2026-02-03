@@ -30,8 +30,8 @@ export default function Masthead() {
         <div className="masthead_cmp--image-content">
           <div className="masthead_cmp--image-content-profile">
             <Image
-              width="600"
-              height="500"
+              width="1000"
+              height="1000"
               src="/profile-image.jpg"
               alt="project"
             />
